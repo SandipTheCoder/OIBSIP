@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="utils.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
 
+    <div class="grid-container">
+        <input type="text" id="grid-0" placeholder="0">
+
+        <div class="grid-item" id="grid-1">
+            <button onclick="clr()">AC</button>   
+        </div>
+        <div class="grid-item" id="grid-2">
+            <button onclick="del()">DL</button>
+        </div>
+        <div class="grid-item" id="grid-3">
+            <button onclick="calculate('%')">%</button>
+        </div>
+        <div class="grid-item" id="grid-4">
+            <button onclick="calculate('/')">/</button>
+        </div>
+        
+        <div class="grid-item" id="grid-5">
+            <button onclick="calculate(7)">7</button>
+        </div>
+        <div class="grid-item" id="grid-6">
+            <button onclick="calculate(8)">8</button>
+        </div>
+        <div class="grid-item" id="grid-7">
+            <button onclick="calculate(9)">9</button>
+        </div>
+        <div class="grid-item" id="grid-8">
+            <button onclick="calculate('*')">*</button>
+        </div>
+
+        <div class="grid-item" id="grid-9">
+            <button onclick="calculate(4)">4</button>
+        </div>
+        <div class="grid-item" id="grid-10">
+            <button onclick="calculate(5)">5</button>
+        </div>
+        <div class="grid-item" id="grid-11">
+            <button onclick="calculate(6)">6</button>
+        </div>
+        <div class="grid-item" id="grid-12">
+            <button onclick="calculate('-')">-</button>
+        </div>
+
+        <div class="grid-item" id="grid-13">
+            <button onclick="calculate(1)">1</button>
+        </div>
+        <div class="grid-item" id="grid-14">
+            <button onclick="calculate(2)">2</button>
+        </div>
+        <div class="grid-item" id="grid-15">
+            <button onclick="calculate(3)">3</button>
+        </div>
+        <div class="grid-item" id="grid-16">
+            <button onclick="calculate('+')">+</button>
+        </div>
+
+        <div class="grid-item" id="grid-17">
+            <button onclick="calculate(0)">0</button>
+        </div>
+        <div class="grid-item" id="grid-18">
+            <button onclick="calculate('.')">.</button>
+        </div>
+        <div class="grid-item" id="grid-19">
+            <button class="equal" onclick="Result()">=</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script> 
+</body>
+</html>
