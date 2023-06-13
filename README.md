@@ -1,3 +1,2 @@
 # OIBSIP
-Calculator with basic functionalities.
-Using HTML, CSS, javaScript.
+Level-2(Task-1, Task-2, Task-3)
