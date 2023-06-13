@@ -1,0 +1,57 @@
+body{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif ;
+    
+}
+h1, h2, h3{
+    text-align: center;
+    align-content: center;
+    color: darkslategrey;
+    margin: 5px;
+    padding-left: 230px;
+}
+
+.container
+{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 65%;
+    margin: 10px auto 0 auto;
+}
+
+.photo{
+    width: 100%;
+}
+
+.container img{  
+    padding-top: 90px; 
+    height: 350px;
+    float: right;
+}
+
+.container p{
+    color: darkgrey;
+    margin-right: 15px;
+    text-align: justify;
+}
+.div2 ul li{
+    text-align: center;
+    align-content: center;
+    color: darkgray;
+    text-align: justify;
+}
+
+.div2{
+    padding: 5px;
+    width: 100%;
+    height: auto;
+}
+.name{
+    text-align: center;
+    text-decoration-color: darkslategrey;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
+}
